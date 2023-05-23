@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 // Server apenas o arquivo stático do repo dist
-app.use(express.static('./dist/app'));
+app.use(express.static('./dist'));
 
 app.get('/*', (req, res) => {
     res.sendFile('index.html', {root: 'dist'})
