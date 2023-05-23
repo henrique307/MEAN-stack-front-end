@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static('./dist/app'));
 
 app.get('/*', (req, res) => {
-    res.sendFile('index.html', {root: 'dist/angular-heroku'})
+    res.sendFile('index.html', {root: 'dist'})
 })
 
 // Começa a escutar na porta padrão do heroku
