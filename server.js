@@ -4,10 +4,10 @@ const path = require('path');
 const app = express();
 
 // Server apenas o arquivo stático do repo dist
-app.use(express.static('./dist'));
+app.use(express.static('./dist/app'));
 
 app.get('/*', (req, res) => {
-    res.sendFile('index.html', {root: 'dist'})
+    res.sendFile('index.html')
 })
 
 // Começa a escutar na porta padrão do heroku
