@@ -1,6 +1,8 @@
 # FrontEnd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Front-end para um projeto feito usando MEAN stack.
+
+Front-end for a project made using the MEAN stack
 
 ## Development server
 
