@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
   arr: any[] = [];
 
   ngOnInit(): void {
-    fetch("https://fullstack-api.herokuapp.com/", {
+    fetch("https://mean-stack-backend-a61768c8f8c8.herokuapp.com/", {
       method: "GET",
       // mode:"no-cors"
     }).then(res => res.json()).then(json => {
